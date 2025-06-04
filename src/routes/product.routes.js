@@ -21,7 +21,7 @@ const ProductController = require('../controllers/product.controller');
  *         schema:
  *           type: string
  *         required: true
- *         description: Назва категорії (наприклад: Smartphones)
+ *         description: "Назва категорії (наприклад: Smartphones)"
  *     responses:
  *       200:
  *         description: Список продуктів у категорії
