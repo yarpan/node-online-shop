@@ -76,25 +76,53 @@ src/
 
 Interactive Swagger UI is available at:
 
-[http://localhost:5000/api-docs](http://localhost:5000/api-docs)
+📎 [http://localhost:5000/api-docs](http://localhost:5000/api-docs)
 
-Documentation includes endpoints for:
+### 📚 Available Endpoints
 
-- Creating and fetching products by category
-- Placing orders and calculating total profit
-- Managing categories
-- Fetching top-selling products
+#### Categories
+**Base path:** `/api/categories`
+
+- `GET /api/categories`  
+  Retrieve all product categories
+
+- `POST /api/categories`  
+  Create a new category
+
+#### Products
+**Base path:** `/api/products`
+
+- `GET /api/products/category/{categoryName}`  
+  Get products by category name (e.g. Smartphones)
+
+- `GET /api/products/top/sales`  
+  Retrieve top 3 best-selling products
+
+- `POST /api/products`  
+  Create a new product
+
+#### Orders
+**Base path:** `/api/orders`
+
+- `GET /api/orders`  
+  Retrieve all orders
+
+- `POST /api/orders`  
+  Create a new order
+
+- `GET /api/orders/profit`  
+  Calculate total profit from all orders
+
+---
 
 ## Running Tests
 
-> *(Testing not implemented at the moment.)*
+> *(Testing not implemented at the moment)*
 
-  
-  
+
 ## License
 
 This project is licensed under the MIT License.
-Feel free to update or Fork.
 
 ## Contributing
 
