@@ -87,15 +87,14 @@ Documentation includes endpoints for:
 
 ## Running Tests
 
-> *(Testing scripts not included by default. Add test framework like Jest or Mocha for this section.)*
+> *(Testing not implemented at the moment.)*
 
-```bash
-npm run test
-```
-
+  
+  
 ## License
 
 This project is licensed under the MIT License.
+Feel free to update or Fork.
 
 ## Contributing
 
